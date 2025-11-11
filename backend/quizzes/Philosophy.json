@@ -1,0 +1,106 @@
+{
+  "quizName": "Philosophy Quiz",
+  "quizDescription": "Explore the minds of great thinkers and test your knowledge of philosophical ideas.",
+  "questions": [
+    {
+      "question": "Who is known as the father of Western philosophy?",
+      "options": ["Plato", "Aristotle", "Socrates", "Pythagoras"],
+      "answer": "Socrates"
+    },
+    {
+      "question": "Which philosopher wrote 'Critique of Pure Reason'?",
+      "options": ["Immanuel Kant", "John Locke", "David Hume", "Georg Hegel"],
+      "answer": "Immanuel Kant"
+    },
+    {
+      "question": "What is the philosophical study of knowledge called?",
+      "options": ["Ethics", "Logic", "Epistemology", "Metaphysics"],
+      "answer": "Epistemology"
+    },
+    {
+      "question": "Friedrich Nietzsche famously said:",
+      "options": ["I think, therefore I am.", "Man is born free.", "God is dead.", "To be is to be perceived."],
+      "answer": "God is dead."
+    },
+    {
+      "question": "Who developed the theory of the 'social contract'?",
+      "options": ["Rousseau", "Plato", "Descartes", "Confucius"],
+      "answer": "Rousseau"
+    },
+    {
+      "question": "Which philosopher wrote 'The Republic'?",
+      "options": ["Socrates", "Plato", "Aristotle", "Zeno"],
+      "answer": "Plato"
+    },
+    {
+      "question": "Which branch of philosophy deals with right and wrong?",
+      "options": ["Logic", "Ethics", "Aesthetics", "Ontology"],
+      "answer": "Ethics"
+    },
+    {
+      "question": "Who said 'Cogito, ergo sum' (I think, therefore I am)?",
+      "options": ["Socrates", "Kant", "Descartes", "Locke"],
+      "answer": "Descartes"
+    },
+    {
+      "question": "What is the main idea of existentialism?",
+      "options": ["Logic is supreme.", "Existence precedes essence.", "Truth is relative.", "Forms are eternal."],
+      "answer": "Existence precedes essence."
+    },
+    {
+      "question": "Who is associated with the allegory of the cave?",
+      "options": ["Plato", "Socrates", "Nietzsche", "Aristotle"],
+      "answer": "Plato"
+    },
+    {
+      "question": "Which philosopher is known for 'utilitarianism'?",
+      "options": ["Kant", "Bentham", "Plato", "Hobbes"],
+      "answer": "Bentham"
+    },
+    {
+      "question": "Which philosopher developed 'categorical imperative'?",
+      "options": ["Aristotle", "Hume", "Kant", "Mill"],
+      "answer": "Kant"
+    },
+    {
+      "question": "What is metaphysics concerned with?",
+      "options": ["Beauty", "Knowledge", "Reality", "Morality"],
+      "answer": "Reality"
+    },
+    {
+      "question": "Who said 'The unexamined life is not worth living'?",
+      "options": ["Plato", "Socrates", "Aristotle", "Kierkegaard"],
+      "answer": "Socrates"
+    },
+    {
+      "question": "Who founded the school of Stoicism?",
+      "options": ["Epicurus", "Zeno of Citium", "Seneca", "Marcus Aurelius"],
+      "answer": "Zeno of Citium"
+    },
+    {
+      "question": "Which philosopher influenced early Christianity?",
+      "options": ["Epicurus", "Augustine", "Aristotle", "Descartes"],
+      "answer": "Augustine"
+    },
+    {
+      "question": "Which school taught 'pleasure is the greatest good'?",
+      "options": ["Stoicism", "Epicureanism", "Skepticism", "Platonism"],
+      "answer": "Epicureanism"
+    },
+    {
+      "question": "Who is considered the founder of modern political science?",
+      "options": ["Locke", "Machiavelli", "Hobbes", "Aristotle"],
+      "answer": "Machiavelli"
+    },
+    {
+      "question": "What is ontology the study of?",
+      "options": ["Knowledge", "Logic", "Being", "Morality"],
+      "answer": "Being"
+    },
+    {
+      "question": "What does 'tabula rasa' refer to?",
+      "options": ["Innate ideas", "Empty mind", "Soul's form", "The cave"],
+      "answer": "Empty mind"
+    }
+  ]
+}

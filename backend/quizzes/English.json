@@ -1,0 +1,66 @@
+{
+  "quizName": "English Language Skills Quiz",
+  "quizDescription": "Test your knowledge of vocabulary, grammar, and reading comprehension with these advanced English questions.",
+  "questions": [
+    {
+      "question": "Choose the correct word to complete the sentence: The new policy aims to increase economic ----- in underdeveloped regions.",
+      "options": ["growth", "grow", "grown", "grew"],
+      "answer": "growth"
+    },
+    {
+      "question": "Which word is closest in meaning to 'meticulous'?",
+      "options": ["carless", "rigorous", "generous", "impatient"],
+      "answer": "rigorous"
+    },
+    {
+      "question": "Which sentence uses 'inevitable' correctly?",
+      "options": [
+        "it's inevitable that we win the game?",
+        "failure was inevitable due to poor planning?",
+        "inevitable he goes to store?",
+        "he inevitable to finish early?"
+      ],
+      "answer": "failure was inevitable due to poor planning?"
+    },
+    {
+      "question": "Which option is the correct noun form of 'persist'?",
+      "options": ["persistence", "persistency", "persistent", "persisted"],
+      "answer": "persistence"
+    },
+    {
+      "question": "Had it not been for her support, I ---- the project on time.",
+      "options": ["wouldn't complete", "won't complete", "wouldn't have completed", "didn't complete"],
+      "answer": "wouldn't have completed"
+    },
+    {
+      "question": "No sooner ---- the door than the baby started crying.",
+      "options": ["I closed", "I had closed", "had I closed", "was I closing"],
+      "answer": "had I closed"
+    },
+    {
+      "question": "The meeting, ---- had been scheduled for Monday, was postponed to Friday.",
+      "options": ["where", "that", "which", "whose"],
+      "answer": "which"
+    },
+    {
+      "question": "If he ---- earlier, we would have caught the train.",
+      "options": ["arrives", "arrived", "had arrived", "was arriving"],
+      "answer": "had arrived"
+    },
+    {
+      "question": "What is one negative effect of globalization mentioned in the passage?",
+      "options": ["increased communication", "loss of cultural uniqueness", "decreased global trade", "rise of local traditions"],
+      "answer": "loss of cultural uniqueness"
+    },
+    {
+      "question": "What is the main idea of the passage?",
+      "options": [
+        "globalization only benefits big businesses",
+        "globalization helps protect small cultures",
+        "globalization has both positive and negative cultural effects",
+        "local traditions are stronger than ever"
+      ],
+      "answer": "globalization has both positive and negative cultural effects"
+    }
+  ]
+}

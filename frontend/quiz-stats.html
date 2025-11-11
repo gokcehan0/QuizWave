@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Statistics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white min-h-screen">
+  <!-- Navigation -->
+  <nav class="bg-gray-800/80 backdrop-blur-md shadow-xl border-b border-gray-700 sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-4">
+          <a href="main.html" class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent hover:from-blue-300 hover:to-purple-400 transition-all duration-300">
+            QuizApp
+          </a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <a href="quiz-view.html" class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors duration-200">
+            ← Back to Quizzes
+          </a>
+          <span id="user-info" class="text-gray-300"></span>
+          <button id="logout-btn" class="px-4 py-2 bg-rose-600 hover:bg-rose-700 rounded-lg transition-colors duration-200">
+            Logout
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mx-auto px-6 py-8">
+    <div class="mb-8">
+      <h1 class="text-4xl font-bold mb-2 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+        Quiz Statistics
+      </h1>
+      <p class="text-gray-400 text-lg" id="quiz-name">Loading...</p>
+    </div>
+
+    <div id="stats-content" class="space-y-6">
+      <div class="flex items-center justify-center py-12">
+        <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/firebase-config.js"></script>
+  <script src="/js/quiz-stats.js"></script>
+  <script>
+    // User info ve logout
+    auth.onAuthStateChanged(user => {
+      if (user) {
+        const username = user.displayName || user.email.split('@')[0];
+        document.getElementById('user-info').textContent = username.toUpperCase();
+      } else {
+        window.location.href = 'index.html';
+      }
+    });
+
+    document.getElementById('logout-btn').onclick = () => {
+      auth.signOut().then(() => {
+        window.location.href = 'index.html';
+      });
+    };
+  </script>
+</body>
+</html>

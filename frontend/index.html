@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Quiz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center">
+  <div class="flex flex-col lg:flex-row items-center justify-center gap-8 w-full max-w-6xl p-6">
+    <!-- Auth SVG -->
+    <div id="auth-svg" class="hidden lg:block">
+      <svg xmlns="http://www.w3.org/2000/svg" width="350" height="350" viewBox="0 0 800.012 793.179" class="opacity-90" preserveAspectRatio="xMidYMid meet">
+        <g transform="translate(-571.203 -218.417)"><path d="M981.632,982.127H424.5V410.494c0-121.619,98.944-220.563,220.563-220.563H761.069c121.619,0,220.563,98.944,220.563,220.563Z" transform="translate(244.764 28.486)" fill="#374151"/><path d="M865.627,982.125H424.5V410.492a218.856,218.856,0,0,1,42.122-129.658c1.013-1.381,2.024-2.744,3.066-4.092a220.511,220.511,0,0,1,46.943-45.564c1.007-.733,2.018-1.453,3.044-2.173a220.046,220.046,0,0,1,48.039-25.123c1.009-.382,2.036-.765,3.063-1.133a219.832,219.832,0,0,1,47.484-11.2c1-.137,2.035-.244,3.065-.352a223.293,223.293,0,0,1,47.479,0c1.028.107,2.059.215,3.074.353a219.788,219.788,0,0,1,47.471,11.2c1.027.367,2.055.75,3.066,1.134A219.5,219.5,0,0,1,769.9,228.635c1.025.7,2.051,1.424,3.062,2.144a222.832,222.832,0,0,1,28.06,23.757,220.263,220.263,0,0,1,19.423,22.21c1.039,1.344,2.049,2.707,3.061,4.086a218.858,218.858,0,0,1,42.124,129.66Z" transform="translate(244.764 28.488)" fill="#4b5563"/><circle cx="24.422" cy="24.422" r="24.422" transform="translate(1050.098 564.909)" fill="#6366f1"/><path d="M1064.222,710.828H266.783c-.71,0-1.286-.814-1.286-1.817s.576-1.818,1.286-1.818h797.439c.71,0,1.286.814,1.286,1.818S1064.933,710.828,1064.222,710.828Z" transform="translate(305.707 300.768)" fill="#e5e7eb"/><path d="M705.852,759.927H507.422a9.869,9.869,0,0,1-9.922-9.792V307.223a9.869,9.869,0,0,1,9.921-9.792H705.852a9.869,9.869,0,0,1,9.921,9.792V750.135a9.869,9.869,0,0,1-9.922,9.792Z" transform="translate(283.19 85.073)" fill="#fff"/><g transform="translate(1075.599 381.07)"><path d="M518.46,184.739l-41.541,14.442L437.647,401.925l80.814,9.867h39.5l-30.18-201.615a67.286,67.286,0,0,0-9.323-25.438h0Z" transform="translate(-369.923 -96.176)" fill="#6366f1"/></g></g>
+      </svg>
+    </div>
+    
+    <!-- Login Form -->
+    <div id="app" class="w-full max-w-md p-6 rounded-lg bg-gradient-to-br from-gray-800 to-gray-900 shadow-xl border border-gray-700">
+    <h1 class="text-3xl font-bold mb-6 text-center bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent">Quiz Site</h1>
+    <div id="auth">
+      <!-- Login Form -->
+      <div id="login-form">
+        <input id="login-email" type="email" placeholder="Email address" class="mb-3 w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white placeholder-gray-400 focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all">
+        <input id="login-password" type="password" placeholder="Password" class="mb-4 w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white placeholder-gray-400 focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all">
+        <button onclick="login()" class="bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 w-full p-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg">Login</button>
+        <p class="text-sm mt-3 text-center">Don't have an account? <a href="#" id="show-register" class="text-indigo-400 hover:text-indigo-300 underline font-semibold">Sign up</a></p>
+        <div id="login-msg" class="mt-2 text-sm"></div>
+      </div>
+      <!-- Register Form -->
+      <div id="register-form" class="hidden">
+        <input id="reg-username" type="text" placeholder="Username" class="mb-3 w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white placeholder-gray-400 focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all">
+        <input id="reg-email" type="email" placeholder="Email address" class="mb-3 w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white placeholder-gray-400 focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all">
+        <input id="reg-password" type="password" placeholder="Password" class="mb-4 w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white placeholder-gray-400 focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all">
+        <button onclick="register()" class="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 w-full p-3 rounded-lg mb-3 font-semibold transition-all transform hover:scale-105 shadow-lg">Sign Up</button>
+        <p class="text-sm mt-3 text-center">Already have an account? <a href="#" id="show-login" class="text-emerald-400 hover:text-emerald-300 underline font-semibold">Login</a></p>
+        <div id="register-msg" class="mt-2 text-sm"></div>
+      </div>
+    </div>
+    <div id="quiz" class="hidden">
+      <div id="quiz-content"></div>
+      <button onclick="logout()" class="bg-gradient-to-r from-rose-600 to-red-600 hover:from-rose-700 hover:to-red-700 w-full p-3 rounded-lg mt-4 font-semibold transition-all transform hover:scale-105 shadow-lg">Logout</button>
+    </div>
+    </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+  <script src="/js/firebase-config.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

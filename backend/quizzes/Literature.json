@@ -1,0 +1,106 @@
+{
+  "quizName": "World Literature Quiz",
+  "quizDescription": "Challenge your understanding of classic and modern literary works.",
+  "questions": [
+    {
+      "question": "Who wrote '1984'?",
+      "options": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "J.K. Rowling"],
+      "answer": "George Orwell"
+    },
+    {
+      "question": "Who is the author of 'Pride and Prejudice'?",
+      "options": ["Charlotte Brontë", "Jane Austen", "Emily Brontë", "Mary Shelley"],
+      "answer": "Jane Austen"
+    },
+    {
+      "question": "'Hamlet' was written by which playwright?",
+      "options": ["Shakespeare", "Sophocles", "Molière", "Goethe"],
+      "answer": "Shakespeare"
+    },
+    {
+      "question": "What is the first book in the Harry Potter series?",
+      "options": ["Chamber of Secrets", "Goblet of Fire", "Philosopher's Stone", "Half-Blood Prince"],
+      "answer": "Philosopher's Stone"
+    },
+    {
+      "question": "Who wrote 'The Great Gatsby'?",
+      "options": ["Ernest Hemingway", "F. Scott Fitzgerald", "Mark Twain", "John Steinbeck"],
+      "answer": "F. Scott Fitzgerald"
+    },
+    {
+      "question": "In which novel is Big Brother a character?",
+      "options": ["Fahrenheit 451", "Animal Farm", "1984", "Brave New World"],
+      "answer": "1984"
+    },
+    {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "options": ["Harper Lee", "Toni Morrison", "Sylvia Plath", "Margaret Atwood"],
+      "answer": "Harper Lee"
+    },
+    {
+      "question": "What type of animal is the main character in Orwell's 'Animal Farm'?",
+      "options": ["Pig", "Horse", "Sheep", "Dog"],
+      "answer": "Pig"
+    },
+    {
+      "question": "Which poet wrote 'The Raven'?",
+      "options": ["Robert Frost", "Walt Whitman", "Edgar Allan Poe", "Emily Dickinson"],
+      "answer": "Edgar Allan Poe"
+    },
+    {
+      "question": "Who is the author of 'The Catcher in the Rye'?",
+      "options": ["J.D. Salinger", "Stephen King", "Kurt Vonnegut", "George Orwell"],
+      "answer": "J.D. Salinger"
+    },
+    {
+      "question": "Which Shakespeare play features the line 'To be, or not to be'?",
+      "options": ["Macbeth", "Hamlet", "Othello", "King Lear"],
+      "answer": "Hamlet"
+    },
+    {
+      "question": "Who wrote 'Frankenstein'?",
+      "options": ["Mary Shelley", "Bram Stoker", "Oscar Wilde", "H.G. Wells"],
+      "answer": "Mary Shelley"
+    },
+    {
+      "question": "Which novel begins with 'Call me Ishmael'?",
+      "options": ["Moby Dick", "Great Expectations", "Dracula", "Treasure Island"],
+      "answer": "Moby Dick"
+    },
+    {
+      "question": "Who wrote 'Les Misérables'?",
+      "options": ["Victor Hugo", "Émile Zola", "Albert Camus", "Gustave Flaubert"],
+      "answer": "Victor Hugo"
+    },
+    {
+      "question": "What is the setting for 'The Old Man and the Sea'?",
+      "options": ["Pacific Ocean", "Caribbean Sea", "Gulf of Mexico", "Atlantic Ocean"],
+      "answer": "Gulf of Mexico"
+    },
+    {
+      "question": "Which book features the character Atticus Finch?",
+      "options": ["East of Eden", "Of Mice and Men", "To Kill a Mockingbird", "The Grapes of Wrath"],
+      "answer": "To Kill a Mockingbird"
+    },
+    {
+      "question": "Who wrote 'The Divine Comedy'?",
+      "options": ["Virgil", "Dante Alighieri", "Boccaccio", "Petrarch"],
+      "answer": "Dante Alighieri"
+    },
+    {
+      "question": "What is the name of Sherlock Holmes' assistant?",
+      "options": ["Moriarty", "Watson", "Mycroft", "Hudson"],
+      "answer": "Watson"
+    },
+    {
+      "question": "Who wrote the epic poem 'Paradise Lost'?",
+      "options": ["John Donne", "Geoffrey Chaucer", "John Milton", "Alexander Pope"],
+      "answer": "John Milton"
+    },
+    {
+      "question": "Which novel is written by Leo Tolstoy?",
+      "options": ["The Brothers Karamazov", "War and Peace", "Crime and Punishment", "Dead Souls"],
+      "answer": "War and Peace"
+    }
+  ]
+}

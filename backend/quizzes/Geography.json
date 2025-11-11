@@ -1,0 +1,106 @@
+{
+  "quizName": "World Geography Quiz",
+  "quizDescription": "Test your knowledge of global geography with these 20 questions!",
+  "questions": [
+    {
+      "question": "What is the largest desert in the world?",
+      "options": ["Sahara", "Antarctica", "Gobi", "Arctic"],
+      "answer": "Antarctica"
+    },
+    {
+      "question": "Which river is the longest in the world?",
+      "options": ["Amazon", "Yangtze", "Nile", "Mississippi"],
+      "answer": "Nile"
+    },
+    {
+      "question": "Mount Everest is located in which mountain range?",
+      "options": ["Andes", "Alps", "Himalayas", "Rockies"],
+      "answer": "Himalayas"
+    },
+    {
+      "question": "What is the capital of Canada?",
+      "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+      "answer": "Ottawa"
+    },
+    {
+      "question": "Which country has the most islands?",
+      "options": ["Canada", "Sweden", "Indonesia", "Philippines"],
+      "answer": "Sweden"
+    },
+    {
+      "question": "Which ocean is the deepest?",
+      "options": ["Atlantic", "Pacific", "Indian", "Arctic"],
+      "answer": "Pacific"
+    },
+    {
+      "question": "Which continent is the smallest by land area?",
+      "options": ["Europe", "Australia", "Antarctica", "South America"],
+      "answer": "Australia"
+    },
+    {
+      "question": "Which U.S. state has the most volcanoes?",
+      "options": ["California", "Hawaii", "Alaska", "Washington"],
+      "answer": "Alaska"
+    },
+    {
+      "question": "What is the capital of Brazil?",
+      "options": ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"],
+      "answer": "Brasília"
+    },
+    {
+      "question": "Which country is both in Europe and Asia?",
+      "options": ["Russia", "Egypt", "Turkey", "Kazakhstan"],
+      "answer": "Turkey"
+    },
+    {
+      "question": "What is the longest mountain range in the world?",
+      "options": ["Rocky Mountains", "Andes", "Himalayas", "Alps"],
+      "answer": "Andes"
+    },
+    {
+      "question": "Which African country has the largest population?",
+      "options": ["South Africa", "Egypt", "Nigeria", "Ethiopia"],
+      "answer": "Nigeria"
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "options": ["Kyoto", "Tokyo", "Osaka", "Nagoya"],
+      "answer": "Tokyo"
+    },
+    {
+      "question": "Which continent has the most countries?",
+      "options": ["Asia", "Africa", "Europe", "South America"],
+      "answer": "Africa"
+    },
+    {
+      "question": "What sea lies between Europe and Africa?",
+      "options": ["Red Sea", "Caribbean Sea", "Mediterranean Sea", "Baltic Sea"],
+      "answer": "Mediterranean Sea"
+    },
+    {
+      "question": "What is the largest lake in Africa?",
+      "options": ["Lake Victoria", "Lake Tanganyika", "Lake Malawi", "Lake Chad"],
+      "answer": "Lake Victoria"
+    },
+    {
+      "question": "Which country has the most time zones?",
+      "options": ["Russia", "China", "France", "USA"],
+      "answer": "France"
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "answer": "Canberra"
+    },
+    {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": ["China", "Thailand", "Japan", "South Korea"],
+      "answer": "Japan"
+    },
+    {
+      "question": "What river flows through Paris?",
+      "options": ["Seine", "Danube", "Rhine", "Loire"],
+      "answer": "Seine"
+    }
+  ]
+}

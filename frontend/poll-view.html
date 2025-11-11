@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polls</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+  <script src="/js/firebase-config.js"></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center">
+  <div class="w-full max-w-md p-2 sm:p-4 md:p-6 rounded-lg bg-gray-800 shadow-lg">
+    <h1 class="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-center">Polls</h1>
+    <div id="poll-list" class="flex flex-col gap-2 sm:gap-4"></div>
+    <a href="main.html" class="block mt-3 sm:mt-4 text-blue-400 underline text-center text-base sm:text-lg">Home</a>
+  </div>
+  <script src="/js/poll-view.js"></script>
+</body>
+</html>
