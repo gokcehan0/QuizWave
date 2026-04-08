@@ -108,7 +108,7 @@ A comprehensive full-stack web application designed for creating, managing, and 
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/gokcehan0/QuizWave.git
 cd quiz-app
 ```
 
